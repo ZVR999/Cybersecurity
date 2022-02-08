@@ -1,0 +1,19 @@
+After running “lynis audit system”, the first issue I noticed was that there was no password protection listed for GRUB2.
+ 
+The picture attached said Checking for password protection and I’m pretty sure it said [NONE]. (either way it used to be red and now isn’t) I’ll take pictures before from now on to better show what I’m doing and how I’m going about it.
+
+So, I clicked on the link provided by lynis at the bottom of report it made and followed the instructions to add a superuser and a password in order to boot up the kali linux VM.
+
+I changed directory with “cd /etc/grub.d” into the grub.d directory and began to edit the 40_custom file.
+
+The following lines were added to the bottom of the file:
+  set superusers="kali"
+  password_pbkdf2 kali grub.pbkdf2.sha512.{REALLY LONG HASH WENT HERE, BUT AS I’M FEELING THAT IT’S PROBABLY NOT SMART TO LIST THAT HERE; SO I WON’T xD}
+
+I created the hash seen above by using the “grub-mkpasswd-pbkdf2” command and entering in the desired password twice.
+
+After all of this, I used “sudo update-grub” & “sudo reboot” to test if the boot loader would work without a password.
+
+I did make a snapshot of the VM before all of this just in case, I broke something along the way.
+
+The boot loader is now asking for a username and password, everything is working great. Ran “lynis audit system” and now the warning is gone and time to work on the next issue!
