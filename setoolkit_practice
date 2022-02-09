@@ -1,0 +1,25 @@
+Today I was going through my course work and came across a toolkit called setoolkit.
+
+This toolkit is very advanced but I had fun using the toolkit's site cloner to harvest credentials.
+
+Commands used:
+
+1. setoolkit
+2. Option 2 for website attack vectors
+3. Option 5 Web jacking attack method
+4. Option 2 site cloner
+5. Type in a site many people use like reddit.com
+5. Type in IP of attacking computer/VM (so my kali host's ip)
+6. Open firefox and put my kali's IP address in the URL section
+7. Grab the link and pretend I sent it to a victim.
+8. Click the link as the victim and try to login with fake username and password
+9. In the terminal that's using the setoolkit, what the username and password come through in plain text in the format POSSIBLE USERNAME POSSIBLE PASSWORD
+
+So cool.
+
+Interesting finding I came across is that when trying to clone reddit.com. I was unable to figure out how to get a victim to even get to the link created by the setoolkit.
+Something about the way reddit is built somehow catches the redirect to a clone site and stops it from ever opening on the victim's computer.
+
+However, when using facebook.com, I had no issues getting the victim (me lol) to see the fake site, who then entered in the credentials leading to the compromise.
+
+I'll add the pics to this repository for proof and to help clarify what I was doing.
