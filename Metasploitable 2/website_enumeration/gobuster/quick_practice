@@ -6,4 +6,8 @@ For this exercise I connected the kali and meta VMs together under an internal n
 
 3. Now I can see the pages that gobuster was able to enumerate with the wordlist choosen.
 
-4. Next enumerate futher on the pages being found by adding them placing them in the command above and switch up the wordlist being used. For example, "-u 10.11.1.3/test"
+4. Next enumerate futher on the pages being found by adding them placing them in the command above and switch up the wordlist being used. For example, "-u 10.11.1.3/test" and -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt" This may not bring up new information, but it's best to try new wordlist since you never know what word could help you see a new page.
+
+5. During this process when finding pages, I brought up each page using firefox to see what I've uncovered. Interesting thing to note is that I wasn't able to bring up the php admin site until I type it in exactly as seen from the gobuster results. Good to know that websites can be case sensitive, I didn't know this was a thing.
+
+6. Found a new page when trying out new wordlists and when using dirbuster (the GUI version of gobuster << not 100% on that lol) "10.11.1.3/mutillidae" so cool seeing the value of enumeration and how fun it is to bring up new pages that I didn't know about.
