@@ -1,0 +1,7 @@
+For this exercise I connected the kali and meta VMs together under an internal network, set their ips, made sure they could see each other, and then brought up the website being hosted by the meta VM by type in 10.11.1.3 (meta's ip) in the firefox browser on the kali VM.
+
+1. Used the "gobuster dir -u 10.11.1.3 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+
+2. dir = directory/file enumeration mode , -u = the url/address to work on, -w = the wordlist being used to enumerate (using the built-in wordlist that comes with gobuster install)
+
+3.
