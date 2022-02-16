@@ -1,0 +1,27 @@
+For this exercise, I'm starting and getting used to the process of using burp suite and it's ability to be used as a proxy.
+
+1. Start both the Metasploitable 2 and Kali Linux VMs on an INTERNAL network within Virtualbox. (I did this by setting the network adapters on both VMs to Internal Network "intnet")
+
+2. Set the IP addresses for both since they won't have one when a VM is being using on the internal network within Virtualbox. "sudo ifconfig eth0 10.11.1.2" (for kali) and "sudo ifconfig eth0 10.11.1.3" (for Meta)
+
+3. Ping the meta (just going to shorten metasploitable from now on) with the kali VM to make sure the two VMs have access to each other. On kali VM, "ping 10.11.1.3". You should now be able to see the responses with no packet loss.
+
+4. The above is written into bash scripts with the last line being "ifconfig" to make sure they are running properly.
+
+5. Next, I opened burp suite community edition and set the target to be included in the scope to 10.11.1.3 and turned off intercept.
+
+6. Lastly, I opened up firefox and opened up the network setting. Switched the "Configure Proxy Access to the Internet" to manual and filled in the following:
+
+HTTP Proxy = 127.0.0.1 Port = 8080
+
+HTTPS Proxy = 127.0.0.1 Port = 8080
+
+FTP Proxy = 127.0.0.1 Port = 8080
+
+SOCKS Host = 127.0.0.1 Port = 8080 SOCKS v5 checked
+
+No proxy for = localhost, 127.0.0.1
+
+7. Now test that the burp suite proxy is working by using firefox on the kali VM and going to the url 10.11.1.3. This should bring up the metasploitable 2 server being hosted by the meta VM. In addition, you should be able to look at burp suite's Target: Site map and see the requests and responses between the kali VM and the meta VM (10.11.1.3).
+
+8. Pictures of this process will be added to this folder with the same name labeling as this file.
