@@ -4,4 +4,6 @@ For this exercise I connected the kali and meta VMs together under an internal n
 
 2. dir = directory/file enumeration mode , -u = the url/address to work on, -w = the wordlist being used to enumerate (using the built-in wordlist that comes with gobuster install)
 
-3.
+3. Now I can see the pages that gobuster was able to enumerate with the wordlist choosen.
+
+4. Next enumerate futher on the pages being found by adding them placing them in the command above and switch up the wordlist being used. For example, "-u 10.11.1.3/test"
