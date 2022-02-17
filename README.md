@@ -27,3 +27,5 @@ Virtualbox is the hypervisor being used to host the 2 VMs seen above. After addi
 -Within this repo I'll be creating an exercise file with a random name and I will upload pictures to go with the exercise file. For example, under the "Cybersecurity_Practice/Metasploitable 2/website_enumeration/gobuster" file path; the quick_practice file is the exercise file and you can see the pictures relating to that exercise file by looking at the quick_practice files that are appended with _pic.png_ (quick_practice_pic.png).
 
 -I'll try and build out this repo so it's easy to understand what I'm doing, why I'm doing it, and how I'm doing it for possible future employers and buddies.
+
+-An important note is that with every exercise I'm doing, after placing VMs on the Internal Network setting for their adapters within Virtualbox, you'll have to set the IP addresses for each computer/VM via a command or pre-built script of your choice so the VMs can see each other on the internal network. For example, "sudo ifconfig eth0 10.11.1.2" << is the command used in my bash script to set the IPv4 address on my Kali VM to that address.
