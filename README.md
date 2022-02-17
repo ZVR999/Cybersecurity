@@ -23,3 +23,7 @@ Virtualbox is the hypervisor being used to host the 2 VMs seen above. After addi
 -Trial and Error was used with the configurations of the VMs settings to make sure that they weren't putting too much strain on the Host computer
 
 -The little lab is all set up and ready for practice attacking/defending along with practice reports
+
+Within this repo I'll be creating an exercise file with a random name and I will upload pictures to go with the exercise file. For example, under the "Cybersecurity_Practice/Metasploitable 2/website_enumeration/gobuster" file path; the quick_practice file is the exercise file and you can see the pictures relating to that exercise file by looking at the quick_practice files that are appended with _pic.png_ (quick_practice_pic.png).
+
+I'll try and build out this repo so it's easy to understand what I'm doing, why I'm doing it, and how I'm doing it for possible future employers and buddies.
