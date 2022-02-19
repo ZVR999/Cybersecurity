@@ -5,6 +5,7 @@ Current Homelab Setup
 -Virtualbox
 -Kali Linux VM
 -Metasploitable 2 VM
+-Widows 11 VM
 
 Virtualbox was downloaded from https://www.virtualbox.org/ for a Windows 10 host
 
@@ -12,11 +13,13 @@ Kali Linux VM was downloaded from https://www.offensive-security.com/
 
 Metasploitable 2 VM was downloaded from https://docs.rapid7.com/metasploit/metasploitable-2/
 
+Windows 11 VM was downloaded from https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
+
 Virtualbox is the hypervisor being used to host the 2 VMs seen above. After adding and importing these VMs into Virtualbox I did the following:
 
--Tested the network being used by the VMs on NAT, Internal and Host-Only settings making sure to not expose Metasploitable 2 to the Internet (keeping Meta on Host-Only or Internal). 
+-Tested the network being used by the VMs on NAT Network setting
 
--Created new strong passwords for both VMs
+-Created new strong passwords for all VMs
 
 -Made sure that both VMs could see each other with the ping command
 
@@ -28,4 +31,4 @@ Virtualbox is the hypervisor being used to host the 2 VMs seen above. After addi
 
 -I'll try and build out this repo so it's easy to understand what I'm doing, why I'm doing it, and how I'm doing it for possible future employers and buddies.
 
--An important note is that with every exercise I'm doing, after placing VMs on the Internal Network setting for their adapters within Virtualbox, you'll have to set the IP addresses for each computer/VM via a command or pre-built script of your choice so the VMs can see each other on the internal network. For example, "sudo ifconfig eth0 10.11.1.2" << is the command used in my bash script to set the IPv4 address on my Kali VM to that address.
+-There are a few exercises where I placed the VMs on an internal network. After sourcing information from Offensive Security's website and LinkedIn Learning; I've changed the network adapters to Nat Network (lol was scared with this that I'd accidentally expose meta to the internet, so I was hesitant to do this)
