@@ -7,7 +7,7 @@ Current Homelab Setup
 -Metasploitable 2 VM
 -Windows 11 VM
 
-Virtualbox was downloaded from https://www.virtualbox.org/ for a Windows 10 host
+Virtualbox was downloaded from https://www.virtualbox.org/ 
 
 Kali Linux VM was downloaded from https://www.offensive-security.com/
 
