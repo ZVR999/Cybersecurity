@@ -5,7 +5,7 @@ Current Homelab Setup
 -Virtualbox
 -Kali Linux VM
 -Metasploitable 2 VM
--Widows 11 VM
+-Windows 11 VM
 
 Virtualbox was downloaded from https://www.virtualbox.org/ for a Windows 10 host
 
