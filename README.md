@@ -28,7 +28,7 @@ END RESULT
 
 4. Resulting in being able to break in, find/build my own ways in, use forensic skillset to understand what to look for during/after an attack to then find ways to hide better during an attack. 
 
-Repeat until hired, then specialize and repeat til dead xD.
+Repeat until hired, then specialize and repeat until dead xD.
 
 *********************************************************************************************
 
