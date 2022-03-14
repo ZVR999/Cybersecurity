@@ -30,6 +30,8 @@ END RESULT
 
 Repeat until hired, then specialize and repeat til dead xD.
 
+*********************************************************************************************
+
 
 Current Lab set up, notes, and reports
 
