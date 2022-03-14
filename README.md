@@ -1,4 +1,36 @@
 # Cybersecurity_Practice
+
+THE BELOW IS BEING REDESIGNED SO I DON'T GET BORED OR TRAIL TOO FAR OF THE GENERAL PATH.
+
+DESIGN LAYOUT
+
+1. Leave the VMs as is
+
+2. Perform a penetration test on Meta with Kali
+
+3. Write up the penetration test report for practice
+
+4. Breakdown and throughly document the exploits I use and why they work when using exploits
+
+5. Have Wireshark and other tools open and logging the Meta network traffic
+
+6. Take the logs gathered to practice forensics
+
+7. Use tools like Volitilty, Encase, The Sleuth Kit (+Autopsy), etc. for even more forensic practice
+
+END RESULT
+
+1. Be able to perform regular penetration tests with reports
+
+2. Be able to understand and eventually build out my own exploits
+
+3. Skills with logging and monitoring tools will be gained in addition to forensic practice.
+
+4. Resulting in being able to break in, find/build my own ways in, use forensic skillset to understand what to look for during/after an attack to then find ways to hide better during an attack. 
+
+Repeat until hired, then specialize and repeat til dead xD.
+
+
 Current Lab set up, notes, and reports
 
 Current Homelab Setup
