@@ -4,25 +4,25 @@ THE BELOW IS BEING REDESIGNED SO I DON'T GET BORED OR TRAIL TOO FAR OF THE GENER
 
 DESIGN LAYOUT
 
-1. Leave the VMs as is
+1. Leave the VMs as is. After setup within Virtualbox, take snapshots of all of them just incase/for best practice.
 
-2. Perform a penetration test on Meta with Kali
+2. Perform a penetration test on Meta with Kali. This can be super simple or complex.
 
-3. Write up the penetration test report for practice
+3. Write up the penetration test report for practice. This will show competency with penetration testing.
 
-4. Breakdown and throughly document the exploits I use and why they work when using exploits
+4. Breakdown and throughly document the exploits I use and why they work when using exploits. This will help to show mindsets and understanding of new code I run into.
 
-5. Have Wireshark and other tools open and logging the Meta network traffic
+5. Have Wireshark and other tools such as the ELK stack open and logging the Meta network traffic. I'm debating on what VM I'll set this up with. Maybe on Kali since all the tools are already there.
 
-6. Take the logs gathered to practice forensics
+6. Take the logs gathered to practice forensics. This will help show competency with forensic tools.
 
-7. Use tools like Volitilty, Encase, The Sleuth Kit (+Autopsy), etc. for even more forensic practice
+7. Use tools like Volitilty, Encase, The Sleuth Kit (+Autopsy), etc. for even more forensic practice.
 
 END RESULT
 
-1. Be able to perform regular penetration tests with reports
+1. Be able to perform regular penetration tests with reports.
 
-2. Be able to understand and eventually build out my own exploits
+2. Be able to understand and eventually build out my own exploits.
 
 3. Skills with logging and monitoring tools will be gained in addition to forensic practice.
 
