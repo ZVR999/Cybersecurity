@@ -6,7 +6,7 @@ DESIGN LAYOUT
 
 1. Leave the VMs as is. After setup within Virtualbox, take snapshots of all of them just incase/for best practice.
 
-2. Perform a penetration test on Meta with Kali. This can be super simple or complex.
+2. Perform a penetration test on Metasploitable with Kali. This can be super simple or complex.
 
 3. Write up the penetration test report for practice. This will show competency with penetration testing.
 
@@ -49,13 +49,15 @@ Metasploitable 2 VM was downloaded from https://docs.rapid7.com/metasploit/metas
 
 Windows 11 VM was downloaded from https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
 
-Virtualbox is the hypervisor being used to host the 2 VMs seen above. After adding and importing these VMs into Virtualbox I did the following:
+Windows Server 2022 VM was downloaded from https://www.microsoft.com/en-us/evalcenter/
+
+Virtualbox is the hypervisor being used to host the VMs seen above. After adding and importing these VMs into Virtualbox I did the following:
 
 -Tested the network being used by the VMs on NAT Network setting
 
 -Created new strong passwords for all VMs
 
--Made sure that both VMs could see each other with the ping command
+-Made sure that VMs could see each other with the ping command
 
 -Trial and Error was used with the configurations of the VMs settings to make sure that they weren't putting too much strain on the Host computer
 
@@ -66,3 +68,5 @@ Virtualbox is the hypervisor being used to host the 2 VMs seen above. After addi
 -I'll try and build out this repo so it's easy to understand what I'm doing, why I'm doing it, and how I'm doing it for possible future employers and buddies.
 
 -There are a few exercises where I placed the VMs on an internal network. After sourcing information from Offensive Security's website and LinkedIn Learning; I've changed the network adapters to Nat Network (lol was scared with this that I'd accidentally expose meta to the internet, so I was hesitant to do this)
+
+--TESTING OUT A NEW LAYOUT AND WILL DOCUMENT THE TRIAL AND ERROR AS I GO
