@@ -12,7 +12,7 @@ DESIGN LAYOUT
 
 4. Breakdown and throughly document the exploits I use and why they work when using exploits. This will help to show mindsets and understanding of new code I run into.
 
-5. Have Wireshark and other tools such as the ELK stack open and logging the Meta network traffic. I'm debating on what VM I'll set this up with. Maybe on Kali since all the tools are already there.
+5. Have Wireshark and other tools such as the ELK stack open and logging the Metasploitable network traffic. I'm debating on what VM I'll set this up with. Maybe on Kali since all the tools are already there.
 
 6. Take the logs gathered to practice forensics. This will help show competency with forensic tools.
 
