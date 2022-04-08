@@ -18,6 +18,8 @@ DESIGN LAYOUT
 
 7. Use tools like Volitilty, Encase, The Sleuth Kit (+Autopsy), etc. for even more forensic practice.
 
+8. Remedy the vulnerabilities accordingly
+
 END RESULT
 
 1. Be able to perform regular penetration tests with reports.
@@ -26,7 +28,8 @@ END RESULT
 
 3. Skills with logging and monitoring tools will be gained in addition to forensic practice.
 
-4. Resulting in being able to break in, find/build my own ways in, use forensic skillset to understand what to look for during/after an attack to then find ways to hide better during an attack. 
+4. Resulting in being able to break in, find/build my own ways in, patch the vulnerabilites found, blue and red team skills gained, and use forensic skillset to understand what to look for during/after an attack to then find ways to hide better during an attack. 
+
 
 Repeat until hired, then specialize and repeat until dead xD.
 
