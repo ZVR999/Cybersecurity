@@ -23,84 +23,35 @@ Things to include:
 
 - Primary goals
 
-- 
+
+
+Hello and welcome to my portfolio!
+
+I'm in the processing trying to figure out how to display my skills and whatnot.  So far the above feels right. You see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, projects being worked on, goals (both short and long term), and of course a blog showing how the person thinks and goes about err.. pretty much everything :) 
 
 
 
+Overview of Portfolio:
 
+1. Use tools and resources to perform penetration tests, create reports, and build exploits/malware for red foundation.
 
+2. Perform hardening, proper configurations, and more for blue foundation.
 
+3. General information I learn that isn't tailored specifically for red or blue foundation will be added to the general foundation.
 
-
-
-
-
-1. Leave the VMs as is. After setup within Virtualbox, take snapshots of all of them just incase/for best practice.
-
-2. Perform a penetration test on Metasploitable with Kali. This can be super simple or complex.
-
-3. Write up the penetration test report for practice. This will show competency with penetration testing.
-
-4. Breakdown and throughly document the exploits I use and why they work when using exploits. This will help to show mindsets and understanding of new code I run into.
-
-5. Have Wireshark and other tools such as the ELK stack open and logging the Metasploitable network traffic. I'm debating on what VM I'll set this up with. Maybe on Kali since all the tools are already there.
-
-6. Take the logs gathered to practice forensics. This will help show competency with forensic tools.
-
-7. Use tools like Volitilty, Encase, The Sleuth Kit (+Autopsy), etc. for even more forensic practice.
-
-8. Remedy the vulnerabilities accordingly
+4. Disk imaging, captured/active logs, and more will be used for forensic foundation.
 
 END RESULT
 
-1. Be able to perform regular penetration tests with reports.
+Prove competency of being able to:
+    
+    A. Perform regular penetration tests with reports.
 
-2. Be able to understand and eventually build out my own exploits.
+    B. Understand and eventually build out my own exploits/malware.
 
-3. Skills with logging and monitoring tools will be gained in addition to forensic practice.
+    C. Use logging and monitoring tools for forensic practice.
 
-4. Resulting in being able to break in, find/build my own ways in, patch the vulnerabilites found, blue and red team skills gained, and use forensic skillset to understand what to look for during/after an attack to then find ways to hide better during an attack. 
-
-
-Repeat until hired, then specialize and repeat until dead xD.
-
-*********************************************************************************************
+    D. Utilze all 4 foundations together to grow and to become more capable in the Cybersecurity field!
 
 
-Current Lab set up, notes, and reports
 
-Current Homelab Setup
--Virtualbox
--Kali Linux VM
--Metasploitable 2 VM
--Windows 11 VM
-
-Virtualbox was downloaded from https://www.virtualbox.org/ 
-
-Kali Linux VM was downloaded from https://www.offensive-security.com/
-
-Metasploitable 2 VM was downloaded from https://docs.rapid7.com/metasploit/metasploitable-2/
-
-Windows 11 VM was downloaded from https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/
-
-Windows Server 2022 VM was downloaded from https://www.microsoft.com/en-us/evalcenter/
-
-Virtualbox is the hypervisor being used to host the VMs seen above. After adding and importing these VMs into Virtualbox I did the following:
-
--Tested the network being used by the VMs on NAT Network setting
-
--Created new strong passwords for all VMs
-
--Made sure that VMs could see each other with the ping command
-
--Trial and Error was used with the configurations of the VMs settings to make sure that they weren't putting too much strain on the Host computer
-
--The little lab is all set up and ready for practice attacking/defending along with practice reports
-
--Within this repo I'll be creating an exercise file with a random name and I will upload pictures to go with the exercise file. For example, under the "Cybersecurity_Practice/Metasploitable 2/website_enumeration/gobuster" file path; the quick_practice file is the exercise file and you can see the pictures relating to that exercise file by looking at the quick_practice files that are appended with _pic.png_ (quick_practice_pic.png).
-
--I'll try and build out this repo so it's easy to understand what I'm doing, why I'm doing it, and how I'm doing it for possible future employers and buddies.
-
--There are a few exercises where I placed the VMs on an internal network. After sourcing information from Offensive Security's website and LinkedIn Learning; I've changed the network adapters to Nat Network (lol was scared with this that I'd accidentally expose meta to the internet, so I was hesitant to do this)
-
---TESTING OUT A NEW LAYOUT AND WILL DOCUMENT THE TRIAL AND ERROR AS I GO
