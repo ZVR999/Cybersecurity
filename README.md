@@ -13,8 +13,6 @@ Things to include:
 
 - Background of this dude typing
 
-- Up to date picture since sweet god man have you seen your own pic on here?
-
 - Blue/Red/Forensic/General Foundations. Probably in their own folders with subfolders
 
 - Daily Blog Updates
