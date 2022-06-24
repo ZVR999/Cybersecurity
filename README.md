@@ -43,7 +43,7 @@ Overview of Portfolio:
 
 END RESULT
 
-Prove competency of being able to:
+Proven competency of being able to:
     
     A. Perform regular penetration tests with reports.
 
