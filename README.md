@@ -1,8 +1,39 @@
-# Cybersecurity_Practice
+# Cybersecurity
 
 THE BELOW IS BEING REDESIGNED SO I DON'T GET BORED OR TRAIL TOO FAR OFF THE GENERAL PATH.
 
 DESIGN LAYOUT
+
+
+Sooooo, this got overwhelming real quick xD. 
+
+Let's see.. So I'm thinking I use this repo with Git Pages to host my portfolio.
+
+Things to include:
+
+- Background of this dude typing
+
+- Up to date picture since sweet god man have your own pic on here?
+
+- Blue/Red/Forensic/General Foundations. Probably in their own folders with subfolders
+
+- Daily Blog Updates
+
+- Mini goals and their achievement dates
+
+- Primary goals
+
+- 
+
+
+
+
+
+
+
+
+
+
 
 1. Leave the VMs as is. After setup within Virtualbox, take snapshots of all of them just incase/for best practice.
 
