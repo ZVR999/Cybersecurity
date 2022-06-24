@@ -1,13 +1,13 @@
 # Cybersecurity
 
-THE BELOW IS BEING REDESIGNED SO I DON'T GET BORED OR TRAIL TOO FAR OFF THE GENERAL PATH.
+THE BELOW IS BEING REDESIGNED
 
 DESIGN LAYOUT
 
 
 Sooooo, this got overwhelming real quick xD. 
 
-Let's see.. So I'm thinking I use this repo with Git Pages to host my portfolio.
+Let's see.. So I'm thinking I'll use this repo with Git Pages to host my portfolio.
 
 Things to include:
 
