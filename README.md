@@ -2,30 +2,10 @@
 
 THE BELOW IS BEING REDESIGNED
 
-DESIGN LAYOUT
-
-
-Sooooo, this got overwhelming real quick xD. 
-
-Let's see.. So I'm thinking I'll use this repo with Git Pages to host my portfolio.
-
-Things to include:
-
-- Background of this dude typing
-
-- Blue/Red/Forensic/General Foundations. Probably in their own folders with subfolders
-
-- Daily Blog Updates
-
-- Mini goals and their achievement dates
-
-- Primary goals
-
-
 
 Hello and welcome to my portfolio!
 
-I'm in the processing trying to figure out how to display my skills and whatnot.  So far the above feels right. You see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, projects being worked on, goals (both short and long term), and of course a blog showing how the person thinks and goes about err.. pretty much everything :) 
+I'm in the processing trying to figure out how to display my skills and whatnot. When completed, you'll see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, projects being worked on, goals (both short and long term), and of course a blog showing how the person thinks and goes about err.. pretty much everything :) 
 
 
 
