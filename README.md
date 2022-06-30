@@ -1,6 +1,5 @@
 # Cybersecurity Portfolio
 
-THE BELOW IS BEING REDESIGNED
 
 
 Hello and welcome to my portfolio!
