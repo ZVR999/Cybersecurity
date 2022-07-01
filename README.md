@@ -26,9 +26,11 @@ Proven competency of being able to:
 
     B. Understand and eventually build out my own exploits/malware.
 
-    C. Use logging and monitoring tools for forensic practice.
+    C. Use logging, disk imaging, etc. for forensic practice.
 
-    D. Utilze all 4 foundations together to grow and to become more capable in the Cybersecurity field!
+    D. Show experience with hardening systems and following best practices for configurations/encryption/etc.
+    
+    E. Utilze all 4 foundations together to grow and to become more capable in the Cybersecurity field!
 
 
 
