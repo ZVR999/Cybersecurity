@@ -6,6 +6,8 @@ Hello and welcome to my portfolio!
 
 I'm in the processing trying to figure out how to display my skills and whatnot. When completed, you'll see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, projects being worked on, goals (both short and long term), and of course a blog showing how the person thinks and goes about err.. pretty much everything :) 
 
+This portfolio is hosted through gitpages at https://zvr999.github.io/Portfolio/
+
 
 IMPORTANT: The template seen in this repository (Report_Template.pdf) will be used to help display professionalism in addition to proof of skills. This template is in progess and likely to be updated mulitple times in the coming months.
 
