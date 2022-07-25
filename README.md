@@ -9,7 +9,7 @@ I'm in the processing trying to figure out how to display my skills and whatnot.
 This portfolio is hosted through gitpages at https://zvr999.github.io/Portfolio/
 
 
-IMPORTANT: The template seen in this repository (Report_Template.pdf) will be used to help display professionalism in addition to proof of skills. This template is in progess and likely to be updated mulitple times in the coming months.
+IMPORTANT: The template seen in this repository (Report_Template.pdf) will be used to help display professionalism in addition to proof of skills. This template is in progress and is likely to be updated mulitple times in the coming months.
 
 
 
