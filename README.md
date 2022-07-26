@@ -4,7 +4,7 @@
 
 Hello and welcome to my portfolio!
 
-I'm in the processing trying to figure out how to display my skills and whatnot. When completed, you'll see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, projects being worked on (FORMAT UPDATE: Portfolio will now only show 4 projects that will be worked on as I gain more certs and work towards my degrees in Cybersecurity)
+I'm in the processing trying to figure out how to display my skills and whatnot. When completed, you'll see a site with the majority of what you'd like to see about a candidate. Proof of their skills, certs, degrees, and projects being worked on (FORMAT UPDATE: Portfolio will now only show 4 projects that will be worked on as I gain more certs and work towards my degrees in Cybersecurity)
 
 This portfolio is hosted through gitpages at https://zvr999.github.io/Portfolio/
 
