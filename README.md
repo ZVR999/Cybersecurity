@@ -29,6 +29,7 @@ Projects:
 
 4. Create a full stack web application (still debating on the app's purpose, but I can still build out login pages and routes in the mean time).
 
+
 END RESULT:
     
     A. Perform and demonstrate regular penetration tests with reports.
