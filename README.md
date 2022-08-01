@@ -23,7 +23,7 @@ Projects:
 
 1. Use VirtualBox to host VMs in order to use VMs, tools, and resources to perform penetration tests, create reports, and build exploits/malware for red foundation.
 
-2. Use VirtualBox and host Linux and Windows VMs to practice hardening, proper configurations, and more for blue foundation.
+2. Use VirtualBox and host VMs to practice hardening, proper configurations, and more for blue foundation.
 
 3. Use VirtualBox and host VMs that will log and monitor attacks used with my red project for forensics.
 
