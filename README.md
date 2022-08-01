@@ -1,4 +1,4 @@
-# Cybersecurity Portfolio
+# Portfolio
 
 
 
@@ -25,7 +25,7 @@ Projects:
 
 2. Use VirtualBox and host Linux and Windows VMs to practice hardening, proper configurations, and more for blue foundation.
 
-3. Use VirtualBox and host VMs that will log and monitor attacks used for red foundation for forensics.
+3. Use VirtualBox and host VMs that will log and monitor attacks used with my red project for forensics.
 
 4. Create a full stack web application (still debating on the app's purpose, but I can still build out login pages and routes in the mean time).
 
